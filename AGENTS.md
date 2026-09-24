@@ -4,7 +4,7 @@
 
 1. [docs/00_README.md](docs/00_README.md) — principles, boundaries, source-of-truth hierarchy
 2. [docs/03_TOOL_CATALOG.md](docs/03_TOOL_CATALOG.md) — canonical Tool Registry (single source of truth for names and IDs)
-3. [docs/11_DECISION_LOG.md](docs/11_DECISION_LOG.md) — binding decisions D-001 → D-022; highest authority
+3. [docs/11_DECISION_LOG.md](docs/11_DECISION_LOG.md) — binding decisions D-001 → D-023; highest authority
 
 ## Trước khi code một tool cụ thể
 

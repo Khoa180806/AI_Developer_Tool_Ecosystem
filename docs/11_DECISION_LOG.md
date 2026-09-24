@@ -82,3 +82,13 @@ Shared competitor rows do not count unless they explicitly identify the tool ove
 ## D-022 — Index and release naming must match
 The root index version and changelog filename are part of the documentation consistency
 check. The canonical changelog filename is `V2.3_CHANGELOG.md`.
+
+## D-023 — Tool implementation architecture and technology selection
+Tools in the ecosystem are not required to share a single language runtime. Each tool
+chooses the most suitable technology stack based on its execution role, developer ICP,
+and distribution model. For T01 (Token Diff), TypeScript/Node.js is selected with pure-JS
+tokenizer (js-tiktoken) to avoid native compilation dependencies, matching the TypeScript
+ICP-1 profile and enabling lightweight CLI and SDK distribution. Development follows a
+multi-repo structure where tool repositories remain independent while conforming strictly
+to the canonical schemas and integration envelopes.
+

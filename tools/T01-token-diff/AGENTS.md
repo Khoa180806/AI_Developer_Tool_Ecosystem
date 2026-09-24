@@ -13,6 +13,7 @@
 - D-011 — Benchmark threshold
 - D-019 — Solo-builder planning baseline
 - D-021 — 1★ competitor gate is per tool
+- D-023 — Tool implementation architecture and technology selection
 
 ## Scope
 
