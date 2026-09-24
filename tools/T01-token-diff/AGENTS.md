@@ -2,7 +2,8 @@
 
 **Canonical name:** Token Diff
 **ID:** T01
-**Status:** Scheduled | **Level:** 1★
+**Status:** In Development | **Level:** 1★
+**Repository:** https://github.com/Khoa180806/token-diff.git
 
 ## Applicable decisions
 
@@ -16,3 +17,4 @@
 ## Scope
 
 KHÔNG cần đọc SPEC.md hoặc AGENTS.md của tool khác trừ khi đang làm composition (xem `docs/06_ROADMAP.md` mục Vertical slices).
+Mã nguồn triển khai độc lập tại repo `Khoa180806/token-diff` theo mô hình multi-repo.
