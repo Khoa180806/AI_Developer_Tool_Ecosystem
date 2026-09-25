@@ -2,11 +2,11 @@
 
 **This file is the single source of truth for tool names. Roadmap names MUST match this registry exactly.**
 
-Status values: `Scheduled`, `Candidate`, `Evolution`, `Platform`.
+Status values: `Stable`, `In Development`, `Scheduled`, `Candidate`, `Evolution`, `Platform`.
 
 | ID | Canonical name | Description | Status | Planned level |
 |---|---|---|---|---|
-| T01 | Token Diff | Compare token usage between prompts, contexts, tool results, or workflow versions. | Scheduled | 1★ |
+| T01 | Token Diff | Compare token usage between prompts, contexts, tool results, or workflow versions. | Stable | 1★ |
 | T02 | Context Pack | Produce a bounded, reusable package of the most relevant context for an agent task. | Scheduled | 1★ |
 | T03 | Tool Result Compressor | Compress verbose tool output while preserving actionable structure and references. | Scheduled | 1★ |
 | T04 | Semantic Cache | Reuse prior results for semantically equivalent requests under explicit freshness rules. | Scheduled | 1★ (MVP) → 3★ (evolution) |

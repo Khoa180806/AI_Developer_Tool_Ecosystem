@@ -132,3 +132,7 @@ Mỗi tool 1★ cần ít nhất 3 competitor/project liên quan trước khi co
 ## D-022 — Naming/version phải nhất quán
 
 INDEX, README và changelog phải dùng cùng version và canonical filename.
+
+## D-023 — Kiến trúc triển khai và lựa chọn công nghệ cho từng tool
+
+Các công cụ trong hệ sinh thái không bắt buộc phải dùng chung một ngôn ngữ runtime duy nhất. Mỗi công cụ được phép chọn tech stack phù hợp nhất với vai trò thực thi, hồ sơ ICP và mô hình phân phối. Đối với T01 (Token Diff), TypeScript/Node.js được lựa chọn kết hợp với bộ tokenizer thuần JS (js-tiktoken) để loại bỏ hoàn toàn phụ thuộc biên dịch native C++/WASM, khớp với hồ sơ ICP-1 của lập trình viên TypeScript và cho phép phân phối CLI/SDK gọn nhẹ qua npm. Quá trình phát triển tuân theo mô hình multi-repo, trong đó các repository công cụ độc lập nhau nhưng phải tuân thủ chặt chẽ schema chuẩn và cấu trúc integration envelope.

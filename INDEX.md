@@ -17,7 +17,7 @@
 
 | Tool | Files |
 |---|---|
-| [tools/T01-token-diff/AGENTS.md](tools/T01-token-diff/AGENTS.md) | Agent navigation for Token Diff |
+| [tools/T01-token-diff/AGENTS.md](tools/T01-token-diff/AGENTS.md) | Agent navigation for Token Diff (Stable 1★ v0.1.1) |
 | [tools/T02-context-pack/AGENTS.md](tools/T02-context-pack/AGENTS.md) | Agent navigation for Context Pack |
 | [tools/T03-tool-result-compressor/AGENTS.md](tools/T03-tool-result-compressor/AGENTS.md) | Agent navigation for Tool Result Compressor |
 | [tools/T04-semantic-cache/AGENTS.md](tools/T04-semantic-cache/AGENTS.md) | Agent navigation for Semantic Cache |

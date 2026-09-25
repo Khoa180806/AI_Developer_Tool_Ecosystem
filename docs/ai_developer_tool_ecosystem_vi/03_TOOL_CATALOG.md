@@ -27,9 +27,9 @@ integrations.
 
 ## 2. Context
 
-### Token Diff
+### Token Diff (T01)
 
-So sánh token usage.
+So sánh token usage và độ chênh lệch context giữa các prompt, tệp, kết quả công cụ (Trạng thái: Stable 1★, v0.1.1, npm: `ai-token-diff`, binary: `td`).
 
 ### Context Pack
 

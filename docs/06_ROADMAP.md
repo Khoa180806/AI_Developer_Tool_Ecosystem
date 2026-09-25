@@ -3,7 +3,7 @@
 **All names below are canonical names from `03_TOOL_CATALOG.md`.** Evolution/platform capabilities are explicitly marked and are not treated as ordinary standalone tools.
 
 ## 1★ — Instrumentation and Context Basics
-- Token Diff
+- Token Diff (Stable v0.1.1 — npm: `ai-token-diff`, binary: `td`)
 - Context Pack
 - Tool Result Compressor
 - Semantic Cache

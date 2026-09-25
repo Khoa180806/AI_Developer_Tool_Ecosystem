@@ -6,7 +6,7 @@ Roadmap chỉ được dùng tên có trong `03_TOOL_CATALOG_VI.md`.
 
 ## ⭐ 1 --- Foundation
 
-Tools: 1. Token Diff 2. Context Pack 3. Tool Result Compressor 4.
+Tools: 1. Token Diff (Stable v0.1.1 — npm: `ai-token-diff`, binary: `td`) 2. Context Pack 3. Tool Result Compressor 4.
 Semantic Cache
 
 Non-tool duy nhất: - Dev Workspace

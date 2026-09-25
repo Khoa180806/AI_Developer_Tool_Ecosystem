@@ -35,3 +35,27 @@ without requiring readers or agents to mentally apply patch sections.
 ### Final documentation baseline
 
 This release is the documentation baseline for starting the 1★ implementation track. No documentation gate remains open under the current rules.
+
+## [2.4] - 2026-09-25
+
+### Purpose
+
+v2.4 marks the completion, release, and stabilization of T01 (Token Diff) as the first 1★ Stable tool in the AI Developer Tool Ecosystem.
+
+### Changes
+
+- **T01 (Token Diff) Stable Release (v0.1.1):**
+  - Implemented standalone CLI and TypeScript SDK conforming strictly to canonical naming (T01) and the common transport envelope v1.0.
+  - Published on npm as package `ai-token-diff` (v0.1.1) with binary aliases `td`, `token-diff`, and `ai-token-diff`.
+  - Built with pure JavaScript BPE tokenization via `js-tiktoken` and an in-memory vocabulary cache, achieving <15ms execution latency and <40MB RAM without native C++/WASM build dependencies.
+  - Integrated Smart Input fallback: automatically distinguishes between disk file paths and inline prompt text strings, emitting a non-blocking warning to stderr.
+  - Formatted terminal output with `picocolors` ANSI tinting and aligned tabular views.
+  - Implemented a complete deterministic error model with standard exit codes (0, 1, 2, 3, 4).
+  - Configured automated CI/CD pipeline on GitHub Actions across Ubuntu & Windows (Node.js 18, 20, 22) with 20/20 Vitest unit/integration tests passing.
+  - Completed documentation and visual assets (pipeline architecture, unclipped terminal screenshots, animated GIF demo, comprehensive FAQ) in both English and Vietnamese.
+- **Ecosystem Registry & Lifecycle Updates:**
+  - Promoted T01 status from `Scheduled` to `Stable` (1★) in `docs/03_TOOL_CATALOG.md` and `docs/ai_developer_tool_ecosystem_vi/03_TOOL_CATALOG.md`.
+  - Updated 1★ Roadmap (`docs/06_ROADMAP.md` and `docs/ai_developer_tool_ecosystem_vi/06_ROADMAP.md`) marking Token Diff as Stable v0.1.1.
+  - Updated `tools/T01-token-diff/AGENTS.md` with implementation details, npm distribution, and CLI binaries.
+  - Synchronized Decision D-023 into Vietnamese Decision Log (`docs/ai_developer_tool_ecosystem_vi/11_DECISION_LOG.md`).
+
