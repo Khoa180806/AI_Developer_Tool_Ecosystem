@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.3.1] - 2026-09-28
+
+### T02 — Context Pack: In Development
+
+- T02 status changed: `Scheduled` → `In Development` in `03_TOOL_CATALOG.md`.
+- Repository created: https://github.com/Khoa180806/context-pack
+- Project scaffold committed: `package.json` (`ai-context-pack` v0.1.0, binary `context-pack`/`cp-tool`), `tsconfig.json`, `.gitignore`, `LICENSE`, `README.md`, `README.vi.md`.
+- `docs/SPEC.md` written: full 1★ specification covering objective, MVP scope, TypeScript types (`PackOptions`, `ContextPackEnvelope`, `ContextSlice`), CLI interface, SDK API, error model, security/privacy policy, benchmark plan, and implementation checklist.
+- Applicable decisions: D-001, D-003, D-008, D-009, D-011, D-019, D-021, D-023.
+
 ## [2.3] - unknown
 
 ### Purpose
