@@ -2,7 +2,7 @@
 
 **Canonical name:** Context Pack
 **ID:** T02
-**Status:** Scheduled | **Level:** 1★
+**Status:** In Development | **Level:** 1★
 
 ## Applicable decisions
 
@@ -16,4 +16,4 @@
 
 ## Scope
 
-KHÔNG cần đọc SPEC.md hoặc AGENTS.md của tool khác trừ khi đang làm composition (xem `docs/06_ROADMAP.md` mục Vertical slices).
+KHÔNG cần đọc SPEC.md hoặc AGENTS.md của tool khác trừ khi đang làm composition (xem [Roadmap](https://github.com/Khoa180806/AI_Developer_Tool_Ecosystem/tree/master/docs/06_ROADMAP.md) mục Vertical slices).
