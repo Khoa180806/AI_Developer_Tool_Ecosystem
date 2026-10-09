@@ -4,7 +4,7 @@
 
 ## 1★ — Instrumentation and Context Basics
 - Token Diff (Stable v0.1.1 — npm: `ai-token-diff`, binary: `td`)
-- Context Pack
+- Context Pack (Stable v0.1.0 — npm: `ai-context-pack`, binary: `cx`)
 - Tool Result Compressor
 - Semantic Cache
 

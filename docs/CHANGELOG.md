@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.3.2] - 2026-10-09
+
+### T02 — Context Pack: Stable (1★)
+
+- Promoted T02 Context Pack to `Stable` in `03_TOOL_CATALOG.md` and `06_ROADMAP.md`.
+- Implemented full core capabilities: Tokenizer (`js-tiktoken` with in-memory caching), Slicer (`fast-glob` resolution + 1-indexed line-window slicing), Ranker (TF-IDF keyword relevance model + Vietnamese-English bilingual query expansion), Packer orchestrator, Formatter (ANSI terminal output), CLI (`cx`, `cpack`, `context-pack`), and SDK public API (`pack()`).
+- Achieved **-75.2% average token reduction** across 5 benchmark tasks on `token_diff`, exceeding D-011 requirement ($\ge 20\%$) with sub-50ms local execution latency.
+- Repository: https://github.com/Khoa180806/context-pack (npm: `ai-context-pack`, binary: `cx`).
+- All 1★ lifecycle criteria satisfied: Standalone CLI/SDK, canonical naming, common envelope schema version 1.0, 42/42 tests passing, empirical benchmark documented, security boundaries audited.
+
 ## [2.3.1] - 2026-09-28
 
 ### T02 — Context Pack: In Development

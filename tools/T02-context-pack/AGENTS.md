@@ -2,7 +2,7 @@
 
 **Canonical name:** Context Pack
 **ID:** T02
-**Status:** In Development | **Level:** 1★
+**Status:** Stable | **Level:** 1★
 
 ## Applicable decisions
 
