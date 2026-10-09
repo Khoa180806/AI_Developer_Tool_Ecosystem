@@ -2,7 +2,7 @@
 
 **Canonical name:** Context Pack
 **ID:** T02
-**Status:** Stable (v0.1.0 verified) | **Level:** 1★
+**Status:** Stable (v0.1.1 released) | **Level:** 1★
 **Package:** `ai-context-pack` (npm) | **CLI Binaries:** `cx`, `cpack`, `context-pack`, `ai-context-pack`
 **Repository:** https://github.com/Khoa180806/context-pack.git
 
